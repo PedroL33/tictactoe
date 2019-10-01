@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Tic Tac Toe</title>        
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet"> 
+    </head>
+    
+    <body onload="displayController.startGame()">
+        <script src="tictactoe.js"></script>
+        <h1>Tic-Tac-Toe</h1>
+        <div id="display"></div>
+        <div id="container">
+            <div class="tile top left" data-id="0" id=0></div>
+            <div class="tile top" data-id="1" id=1></div>
+            <div class="tile top right" data-id="2" id=2></div>
+            <div class="tile left" data-id="3" id=3></div>
+            <div class="tile" data-id="4" id=4></div>
+            <div class="tile right" data-id="5" id=5></div>
+            <div class="tile bottom left" data-id="6" id=6></div>
+            <div class="tile bottom" data-id="7" id=7></div>
+            <div class="tile bottom right" data-id="8" id=8></div>
+        </div>
+        <button onclick="displayController.resetGame()">Reset</button>  
+    </body>
+</html>

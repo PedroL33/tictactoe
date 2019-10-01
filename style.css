@@ -1,0 +1,55 @@
+* {
+    margin:0;
+    border:0;
+    padding:0;
+    text-align:center;
+    font-family: 'Mansalva', cursive;
+}
+
+button {
+    margin: 15px;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+#container div {
+    width: 32%;
+    height: 100px;
+    cursor: pointer;
+}
+
+.top {
+    border-bottom: 5px solid black;
+} 
+
+.left {
+    border-right: 5px solid black;
+}
+
+.right {
+    border-left: 5px solid black;
+}
+
+.bottom {
+    border-top: 5px solid black;
+}
+
+#container {
+    display:flex;
+    flex-wrap:wrap;
+    width: 306px;
+    margin: auto;
+    font-size: 100px;
+    margin-top:10px;
+}
+
+#display {
+    height: 20px;
+    font-size: 20px;
+    margin:20px 0;
+}
+
+.green {
+    background-color: green;
+}
+
